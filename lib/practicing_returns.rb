@@ -7,6 +7,7 @@ def hello(array)
     collection << yield(array[i])
     i = i.next
   end
+  collection
 end
 
 
